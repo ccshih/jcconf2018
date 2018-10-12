@@ -13,6 +13,12 @@ import com.example.jcconf2018.binding.WildAnimalTalk;
 import com.example.jcconf2018.model.Dialect;
 import com.example.jcconf2018.util.Util;
 
+/**
+ * Periodically produce howl and roar messages
+ * @author ccshih
+ *
+ */
+
 @EnableBinding(WildAnimalTalk.class)
 public class WildTalk {
 	private static final Logger logger = LoggerFactory.getLogger(WildTalk.class);

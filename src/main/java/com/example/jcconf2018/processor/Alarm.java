@@ -9,6 +9,12 @@ import com.example.jcconf2018.binding.*;
 import com.example.jcconf2018.model.*;
 import com.example.jcconf2018.util.Util;
 
+/**
+ * Subscribe WildAnimal channels, and publish to CuteAnimal channels
+ * @author ccshih
+ *
+ */
+
 @EnableBinding({ CuteAnimal.class, WildAnimal.class })
 public class Alarm {
 

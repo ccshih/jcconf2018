@@ -1,0 +1,29 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        listenToWolf:
+          destination: wolf
+          group: another-group
+          binder: rabbit
+        listenToLion:
+          destination: lion
+          group: another-group
+          binder: rabbit
+        talkToDog:
+          destination: dog
+          group: my-group
+        dogAlert:
+          destination: dog
+        wolfTalk:
+          destination: wolf
+          binder: rabbit
+        lionTalk:
+          destination: lion
+          binder: rabbit
+        talkToCat:
+          destination: cat
+          group: my-group
+        catAlert:
+          destination: cat
+      defaultBinder: kafka     

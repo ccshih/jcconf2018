@@ -6,8 +6,8 @@ public class Bark extends Dialect {
 		super();
 	}
 
-	public Bark(Dialect dialog) {
-		super(dialog);
+	public Bark(Dialect dialect) {
+		super(dialect);
 	}
 	
 	@Override

@@ -9,8 +9,8 @@ public abstract class Dialect {
 	public Dialect() {
 	}
 	
-	public Dialect(Dialect dialog) {
-		setMessage(dialog.getClass().getSimpleName() + " speaks: " + dialog.getMessage());
+	public Dialect(Dialect dialect) {
+		setMessage(dialect.getClass().getSimpleName() + " speaks: " + dialect.getMessage());
 	}
 	
 	public String getMessage() {

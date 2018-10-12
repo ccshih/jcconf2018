@@ -6,8 +6,8 @@ public class Meow extends Dialect {
 		super();
 	}
 
-	public Meow(Dialect dialog) {
-		super(dialog);
+	public Meow(Dialect dialect) {
+		super(dialect);
 	}
 	
 	@Override

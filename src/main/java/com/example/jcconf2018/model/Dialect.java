@@ -10,7 +10,7 @@ public abstract class Dialect {
 	}
 	
 	public Dialect(Dialect dialect) {
-		setMessage(dialect.getClass().getSimpleName() + " speaks: " + dialect.getMessage());
+		setMessage(dialect.speaker() + " speaks: " + dialect.getMessage());
 	}
 	
 	public String getMessage() {
